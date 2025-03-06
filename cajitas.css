@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+div{
+    width: 200px;
+    height: 50px;
+    background: gray;
+    padding: 20px;
+    border: 20px solid green;
+    margin: 10px;
+}
+.cajita1{
+    width: 100px;
+    height: 100px;
+    background: rgb(55, 0, 255);
+    margin: 90px auto;
+    padding: 5px;
+    border: 30px double rgb(0, 119, 128);
+}
+.cajita2{
+    width: 100px;
+    height: 100px;
+    background: gold;
+    margin: 20px auto;
+    padding: 5px;
+    border: 30px double green;
+}
+.cajita3{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 0, 200);
+    margin: 28px auto;
+    padding: 5px;
+    border: 56px double rgb(246, 250, 246);
+}
+.cajita4{
+    width: 100px;
+    height: 100px;
+    background: rgb(40, 97, 43);
+    margin: 20px auto;
+    padding: 5px;
+    border: 30px double rgb(138, 69, 115);
+}
+.cajita5{
+    width: 100px;
+    height: 100px;
+    background: rgb(8, 8, 8);
+    margin: 20px auto;
+    padding: 5px;
+    border: 30px double rgb(109, 20, 24);
+}
+.cajita6{
+    width: 100px;
+    height: 100px;
+    background: gold;
+    margin: 20px auto;
+    padding: 5px;
+    border: 30px double rgb(180, 32, 209);
+}
+.cajita7{
+    width: 234px;
+    height: 107px;
+    background: rgb(226, 106, 26);
+    margin: 20px auto;
+    padding: 5px;
+    border: 30px double rgb(82, 150, 82);
+}
+.cajita8{
+    width: 1567px;
+    height: 1089px;
+    background: rgb(0, 183, 255);
+    margin: 20px auto;
+    padding: 5px;
+    border: 30px double rgb(249, 250, 249);
+}
+.cajita9{
+    width: 109px;
+    height: 160px;
+    background: rgb(15, 53, 7);
+    margin: 20px auto;
+    padding: 5px;
+    border: 30px double rgb(13, 0, 128);
+}
+.cajita10{
+    width: 100px;
+    height: 100px;
+    background: rgb(211, 13, 13);
+    margin: 20px auto;
+    padding: 5px;
+    border: 30px double rgb(214, 195, 23);
+}

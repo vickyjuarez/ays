@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    width:100px;
+    height: 100px;
+    border-radius:100%;
+    border:#0c10f1 2px dashed;
+    box-shadow: -10px 10px 5px rgb(128, 134, 211);
+}
+img:hover{
+    width:100px;
+    height: 100px;
+    border-radius:0%;
+    border:#111010 2px double;
+    box-shadow: -10px 10px 5px rgb(0, 255, 242);
+    transform:(-360deg) scale(.5);
+    transition:2s ease all;
+}
