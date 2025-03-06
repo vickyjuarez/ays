@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    font-family: "Arial";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.no{
+    font-family: "Arial Black";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.no2{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.no3{
+    font-family: "Wide Latin";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.no4{
+    font-family: "Snap ITC";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.no5{
+    font-family: "Chiller";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.no6{
+    font-family: "Castellar";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.de1{
+    text-decoration: overline;  
+}
+.de2{
+    text-decoration: line-through ;
+}
+.de3{
+    text-decoration: underline;
+}
+.de4{
+    text-decoration: 20px double underline rgb(184, 225, 245) ; 
+}
+.de5{
+    text-decoration:  2px dashed overline indianred;  
+}
+.de6{
+    text-decoration: 5px dotted line-through darksalmon;
+}
+.so1{
+    text-shadow: 0 0 5px yellow;
+}
+.so2{
+    text-shadow: 0 0 5px yellow;
+}
+.so3{
+    text-shadow: 0 0 5px yellow;
+}
+.so4{
+    text-shadow: 0 0 5px yellow;
+}
+.so5{
+    text-shadow: 0 0 5px yellow;
+}
+.so6{
+    text-shadow: 0 0 5px yellow;
+}
+.so7{
+    text-shadow: 0 0 5px yellow;
+}
+.so8{
+    text-shadow: 0 0 5px yellow;
+}
+@font-face {
+    font-family: 'holi';
+    src: url('font/The/New/Rancho.oft');
+    font-style: normal;
+    font-weight: normal;
+}
+.dis{
+    font-family: "holi";
+}

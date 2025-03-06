@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+    text-align: center;
+}
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: rgb(101, 1, 129);
+    margin: 10px;
+    color:white;
+    padding: 15px;
+}
+
+.ingles{
+    background: blueviolet;
+}
+.rgb{
+    background: rgb(10, 100, 0);
+}
+.rgb2{
+    background: rgb(100%, 20%, 50%);
+}
+.rgb3{
+    background: rgba(100%, 20%,50%,0.5);
+}
