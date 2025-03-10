@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: aqua;
+    border: 2px solid palevioletred;
+    margin: 20px;
+    padding: 4px;
+    color: royalblue;
+}
+.estatic{
+    position: static;
+    top: 200px;
+    left: 200px;
+    background: pink;
+}
+.absolu{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background: rgb(16, 155, 86);
+}
+.fij{
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    background: rgb(221, 10, 45);
+}
+.re{
+    position: relative;
+    top: -100px;
+    left: 250px;
+    background: rgb(46, 32, 245);
+}
+.pe{
+    position: sticky;
+    top: 200px;
+    left: 200px;
+    background: rgb(97, 236, 17);
+}
+.abs1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(175, 212, 10);
+
+}
+.abs2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(240, 145, 21);
+
+}
+.abs3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgb(223, 103, 103);
+
+}
+
+    .abs4{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: rgb(115, 167, 141);
+    
+    }
+    .pe1{
+        position: sticky;
+        top: 12px;
+        left: 15px;
+        background: rgb(212, 11, 135);
+     
+    }
+    .h{
+        position: absolute;
+        top: 26px;
+        left: 280px;
+        background: rgb(248, 54, 5);
+    }
+    .o{
+        position: absolute;
+        top: 80px;
+        left: 225px;
+        background: rgb(5, 44, 24);
+    }
+    .l{
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        background: rgb(197, 240, 4);
+    }
+    .a{
+        position: absolute;
+        top: 200px;
+        left: 100px;
+        background: rgb(107, 117, 11);
+    }
