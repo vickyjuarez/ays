@@ -45,6 +45,22 @@ span{
     font-style: italic;
     font-weight: 500;
 }
+.p8{
+    text-indent: 50px;
+}
+.p9{
+    word-spacing: 20px;
+    color: rgb(255, 55, 218);
+    /*espacio entre palabras */
+}
+
+.p10{
+    white-space: pre-line;
+}
+.p11{
+    text-align: center;
+}
+
 .de1{
     text-decoration: overline;  
 }
@@ -73,7 +89,7 @@ span{
     text-shadow: 0 0 5px yellow;
 }
 .so4{
-    
+
     text-shadow: 0 0 5px yellow;
 }
 .so5{
