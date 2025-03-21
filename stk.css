@@ -1,0 +1,564 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Fondo{
+    height: 450px;
+    width: 400px;
+    border: 5px solid;
+    border-radius: 10px;
+    justify-content: center;
+    margin: auto;
+}
+.Cabeza{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background: black;
+    margin: 30px auto;
+}
+.Cuerpo{
+    width: 10px;
+    height: 190px;
+    background: black;
+    border-radius: 10px;
+    margin: -35px auto;
+}
+.Brazo1{
+    width: 10px;
+    height: 100px;
+    background: black;
+    border-radius: 10px;
+    transform: rotate(-60deg);
+    position: relative;
+    top: -150px;
+    left: 150px;
+}
+.Brazo2{
+    width: 10px;
+    height: 100px;
+    background: black;
+    border-radius: 10px;
+    transform: rotate(60deg);
+    position: relative;
+    top: -250px;
+    left: 230px;
+}
+.Pata1{
+    width: 10px;
+    height: 100px;
+    background: black;
+    border-radius: 10px;
+    transform: rotate(50deg);
+    position: relative;
+    top: -240px;
+    left: 155px;
+}
+.Pata2{
+    width: 10px;
+    height: 100px;
+    background: black;
+    border-radius: 10px;
+    transform: rotate(-50deg);
+    position: relative;
+    top: -340px;
+    left: 230px;
+}
+.Mano1{
+    width: 25px;
+    height: 25px;
+    background: black;
+    border-radius: 50px;
+    position: relative;
+    top:-333px;
+    left: 110px;
+}
+.Mano2{
+    width: 25px;
+    height: 25px;
+    background: black;
+    border-radius: 50px;
+    position: relative;
+    top:-365px;
+    left: 270px;
+}
+.Pie1{
+    width: 25px;
+    height: 25px;
+    background: black;
+    border-radius: 50px;
+    position: relative;
+    top:-370px;
+    left: 264px;
+}
+.Pie2{
+    width: 25px;
+    height: 25px;
+    background: black;
+    border-radius: 50px;
+    position: relative;
+    top:-390px;
+    left: 105px;
+}
+
+.Fond{
+    height: 400px;
+    width: 400px;
+    border: 5px solid;
+    border-radius: 10px;
+    justify-content: center;
+    margin: auto;
+}
+.circulo{
+    width: 300px;
+    height: 300px;
+    background: rgb(255, 241, 40);
+    border-radius: 100%;
+margin: 30px auto;
+border: 3px solid black;
+}
+.ojo1{
+    width: 40px;
+    height: 80px;
+    background: black;
+    border-radius: 100%;
+    position: relative;
+    top: -250px;
+    left: 100px;
+}
+.ojo2{
+    width: 40px;
+    height: 80px;
+    background: black;
+    border-radius: 100%;
+    position: relative;
+    top: -330px;
+    left: 240px;
+}
+.boca{
+    width: 150px;
+    height: 80px;
+ border: 5px solid black;
+   border-radius: 100%;
+    position: relative;
+    top: -300px;
+    left: 120px;
+}
+.tapa{
+    width: 180px;
+    height: 40px;
+    background: rgb(255, 241, 40);
+    position: relative;
+    top: -380px;
+    left: 120px;
+}
+
+.Fon {
+    height: 400px;
+    width: 400px;
+    border: 5px solid;
+    border-radius: 10px;
+    justify-content: center;
+    margin: auto;
+}
+.cir {
+    width: 300px;
+    height: 300px;
+    background: rgb(248, 123, 27);
+    border-radius: 100%;
+    margin: 30px auto;
+    border: 3px solid black;
+}
+.ojo {
+    width: 40px;
+    height: 80px;
+    background: black;
+    border-radius: 100%;
+    position: relative;
+    top: -245px;
+    left: 100px;
+}
+.oj {
+    width: 40px;
+    height: 80px;
+    background: black;
+    border-radius: 100%;
+    position: relative;
+    top: -325px;
+    left: 240px;
+}
+.boc {
+    width: 150px;
+    height: 70px;
+    border: 5px solid black;
+    border-radius: 100%;
+    position: relative;
+    top: -285px;
+    left: 120px;
+    transform: rotate(180deg);
+}
+.ceja1 {
+    width: 100px;
+    height: 10px;
+    background: black;
+    position: relative;
+    top: -490px;
+    left: 50px;
+    transform: rotate(30deg); 
+}
+.ceja2 {
+    width: 100px;
+    height: 10px;
+    background: black;
+    position: relative;
+    top: -500px;
+    left: 230px;
+    transform: rotate(-30deg); 
+}
+.tap{
+    width: 170px;
+    height: 45px;
+    background: rgb(248, 123, 27);
+    position: relative;
+    border-radius: 20px;
+    top: -350px;
+    left: 110px;
+}
+
+.CasiF{
+    height: 500px;
+    width: 800px;
+    border: 5px solid;
+    border-radius: 10px;
+    justify-content: center;
+    margin: auto;
+    background: rgb(140, 166, 244);
+}
+.Piso{
+    height: 100px;
+    width: 100%;
+    background: rgb(25, 193, 56);
+    position: relative;     
+    top: 350px;
+}
+.Casi1{
+    height: 200px;
+    width:250px;
+    background: pink;
+    border: 2px solid rgb(199, 83, 102);    
+    position: relative;
+    top: 50px;
+    left: 80px;
+}
+.Techito{
+    height: 20px;
+    width: 300px;
+    background: rgb(121, 82, 9);
+    border: 3px solid rgb(90, 61, 6);
+    position: relative;
+    bottom: 150px;
+    left: 55px;
+}
+.ventana1{
+    height: 30px;
+    width: 30px;
+    background: rgb(39, 128, 163);
+    border: 2px solid black;
+    position: relative;
+    bottom: 120px;
+    left:230px;
+}
+.ventana2{
+    height: 30px;
+    width: 30px;
+    background: rgb(39, 128, 163);
+    border: 2px solid black;
+    position: relative;
+    bottom: 120px;
+    left:230px;
+}
+.ventana3{
+    height: 30px;
+    width: 30px;
+    background: rgb(39, 128, 163);
+    border: 2px solid black;
+    position: relative;
+    bottom: 150px;
+    left:260px;
+}
+.ventana4{
+    height: 30px;
+    width: 30px;
+    background: rgb(39, 128, 163);
+    border: 2px solid black;
+    position: relative;
+    bottom: 210px;
+    left:260px;
+}
+.Puerta{
+    height: 100px;
+    width: 50px;
+    background: rgb(102, 61, 24);
+    position: relative;
+    bottom: 190px;
+    left: 130px;
+    border: 4px solid rgb(42, 21, 3);
+}
+.Perilla{
+    height: 10px;
+    width: 10px;
+    background: rgb(189, 132, 10);
+    position: relative;
+    bottom: 245px;
+    left:165px;
+    border-radius: 100%;
+}
+.Tronco {
+    height: 100px;
+    width: 40px;
+    background: rgb(101, 67, 33); 
+    border-radius: 10px; 
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+}
+.Hojas1, .Hojas2, .Hojas3 {
+    height: 80px;
+    width: 80px;
+    background: rgb(34, 139, 34); 
+    border: 1px solid rgb(14, 56, 14);
+    border-radius: 50%; 
+    position: absolute;
+}
+.Hojas1 {
+    top: 1490px;
+    bottom: 10px;
+    left: 540px;
+}
+.Hojas2 {
+    top: 1560px;
+    bottom: -10px;
+    left: 570px;
+}
+.Hojas3 {
+    top: 1540px;
+    bottom: 90px;
+    left: 499px;
+}
+.cabez{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: rgb(0, 0, 0);
+    position: relative;
+    bottom: 381px;
+    left: 635px;    
+}
+.cuerp{
+    width: 5px;
+    height: 45px;
+    background: black;
+    border-radius: 10px;
+    position: relative;
+    bottom: 383px;
+    left: 647px;    
+}
+.braz{
+    width: 5px;
+    height: 20px;
+    background: black;
+    border-radius: 10px;
+    transform: rotate(-60deg);
+    position: relative;
+    bottom: 430px;
+    left: 637px;
+}
+.brazos{
+    width: 5px;
+    height: 20px;
+    background: black;
+    border-radius: 10px;
+    transform: rotate(60deg);
+    position: relative;
+    bottom: 450px;
+    left: 657px;
+}
+.mata1{
+    width: 5px;
+    height: 30px;
+    background: black;
+    border-radius: 10px;
+    transform: rotate(50deg);
+    position: relative;
+    bottom: 430px;  
+    left: 635px;    
+}
+.mata2{
+    width: 5px;
+    height: 30px;
+    background: black;
+    border-radius: 10px;
+    transform: rotate(-50deg);
+    position: relative;
+    bottom: 465px;
+    left: 658px;
+}
+.nubita{
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(123, 118, 118);
+    border-radius: 100%;
+    position: relative;
+    bottom: 800px;
+    left: 180px;
+}
+.nubita2{
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(123, 118, 118);
+    border-radius: 100%;
+    position: relative;
+    bottom: 850px;
+    left: 160px;
+}
+.nubita3{
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(123, 118, 118);
+    border-radius: 100%;
+    position: relative;
+    bottom: 900px;
+    left: 130px;
+}
+.nubita4{
+    width: 70px;
+    height: 25px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    bottom: 935px;
+    left: 150px;
+}
+.nubite{
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(123, 118, 118);
+    border-radius: 100%;
+    position: relative;
+    bottom: 930px;
+    left: 420px;
+}
+.nubite2{
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(123, 118, 118);
+    border-radius: 100%;
+    position: relative;
+    bottom: 980px;
+    left: 450px;
+}
+.nubite3{
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(123, 118, 118);
+    border-radius: 100%;
+    position: relative;
+    bottom: 1030px;
+    left: 385px;
+}
+.nubite4{
+    width: 70px;
+    height: 25px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    bottom: 1070px;
+    left: 400px;
+}
+.Sol{
+    width: 80px;
+    height: 80px;
+    background: rgb(255, 255, 0);
+    border: 3px solid rgb(245, 204, 21);
+    border-radius: 100%;
+    position: relative;
+    bottom: 1175px;
+    left: 650px;    
+}
+.Solecito{
+    width: 10px;
+    height: 60px; 
+    background: rgb(255, 255, 0);
+    border-radius: 50%;
+    transform: rotate(100deg);
+    position: relative;
+    bottom: 1260px;
+    left: 630px;
+}
+.Calientame{
+    width: 10px;
+    height: 60px; 
+    background: rgb(255, 255, 0);
+    border-radius: 50%;
+    transform: rotate(55deg);
+    position: relative;
+    bottom: 1270px;
+    left: 640px;
+}
+.Un{
+    width: 10px;
+    height: 60px; 
+    background: rgb(255, 255, 0);
+    border-radius: 50%;
+    transform: rotate(-5deg);
+    position: relative;
+    bottom: 1315px;
+    left: 685px;
+}
+.Poquito{
+    width: 10px;
+    height: 60px; 
+    background: rgb(255, 255, 0);
+    border-radius: 50%;
+    transform: rotate(-55deg);
+    position: relative;
+    bottom: 1395px;
+    left: 720px;
+}
+.Hoy{
+    width: 10px;
+    height: 60px; 
+    background: rgb(255, 255, 0);
+    border-radius: 50%;
+    transform: rotate(-100deg);
+    position: relative;
+    bottom: 1495px;
+    left: 740px;    
+}
+.Y{
+    width: 10px;
+    height: 60px; 
+    background: rgb(255, 255, 0);
+    border-radius: 50%;
+    transform: rotate(-200deg);
+    position: relative;
+    bottom: 1580px;
+    left: 670px;        
+}
+.Mañana{
+    width: 10px;
+    height: 60px; 
+    background: rgb(255, 255, 0);
+    border-radius: 50%;
+    transform: rotate(-150deg);
+    position: relative;
+    bottom: 1640px;
+    left: 710px;    
+}

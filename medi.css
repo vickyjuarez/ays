@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background: peru;
+}
+@media (min-width:400px ) and (max-width: 800px){
+    body {
+        background: red;
+    }
+
+    
+}
+@media (min-width:768px ) and (max-width:1366px){
+    body {
+        background: rgb(216, 48, 151);
+    }
+
+    
+}
+@media (min-width:720px ) and (max-width: 1280px){
+    body {
+        background: rgb(255, 230, 0);
+    }
+
+    
+}
+@media (min-width:768px ) and (max-width:1024px){
+    body {
+        background: rgb(76, 0, 255);
+    }
+
+    
+}
+@media (min-width:600px ) and (max-width:800px ){
+    body {
+        background: rgb(30, 255, 0);
+    }
+
+    
+}
+@media (min-width:500px ) and (max-width:900px ){
+    body {
+        background: rgb(255, 60, 0);
+    }
+
+    
+}
